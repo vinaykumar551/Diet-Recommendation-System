@@ -22,7 +22,7 @@ services:
       dockerfile: FastAPI_Backend/Dockerfile
     image: backend:latest
     ports:
-      - 8080:8080
+      - 8000:8000
     networks:
       - project_network
 networks:
