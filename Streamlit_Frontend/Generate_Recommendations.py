@@ -18,5 +18,5 @@ class Generator:
             'ingredients':self.ingredients,
             'params':self.params
         }
-        response=requests.post(url='FastAPI_Backend/main.py',data=json.dumps(request))
+        response=requests.post(url='http://localhost:8000/predict/'',data=json.dumps(request))
         return response
